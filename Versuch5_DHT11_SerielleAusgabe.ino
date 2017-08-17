@@ -12,7 +12,7 @@ void setup()
 {
   dht11.begin();                  // Start des DHT11 Sensors    
   Serial.begin(9600);             // Start der Seriellen Ausgabe mit 9600 Baud-Rate
-  Serial.println("DHT22 Serielle Ausgabe"); // Begrüßung beim Aufruf des seriellen Monitors
+  Serial.println("DHT11 Serielle Ausgabe"); // Begrüßung beim Aufruf des seriellen Monitors
 }
 
 void loop() 
