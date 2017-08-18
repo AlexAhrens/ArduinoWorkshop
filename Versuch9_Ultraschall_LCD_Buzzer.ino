@@ -56,7 +56,7 @@ if (entfernung < 15 && entfernung >= 10)   //Entfernungswert zwischen 15 und 10 
   }
 if (entfernung < 10 && entfernung >= 5)   //Entfernungswert zwischen 10 und 5 cm
   {
-    for (int i = 0; i <= 3; i++)           // Schleife für 3x Piepsen
+    for (int i = 0; i <= 2; i++)           // Schleife für 3x Piepsen
     {
       pinMode(2,OUTPUT);                  // Pin2 als Output festlegen
       digitalWrite(2,HIGH);               // Piepton einschalten
@@ -67,7 +67,7 @@ if (entfernung < 10 && entfernung >= 5)   //Entfernungswert zwischen 10 und 5 cm
   }
  if (entfernung < 5 && entfernung >= 0)   //Entfernungswert zwischen 5 und 0 cm
   {
-    for (int i = 0; i <= 5; i++)           // Schleife für 5x Piepsen
+    for (int i = 1; i <= 5; i++)           // Schleife für 5x Piepsen
     {
       pinMode(2,OUTPUT);                  // Pin2 als Output festlegen
       digitalWrite(2,HIGH);               // Piepton einschalten
