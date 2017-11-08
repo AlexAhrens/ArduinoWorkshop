@@ -8,7 +8,7 @@
 DHT dht11(DHTPIN, DHTTYPE);           // Festlegen des Sensors
 
 // Initialisierung des Displays
-LiquidCrystal_I2C lcd(0x27, 16, 2);   //Display mit 16 Zeichen in 2 Zeilen, Busadresse 0x27 (Interessant wenn man mehrere Geräte über den I2C-Bus betreibt)
+LiquidCrystal_I2C lcd(0x3F, 16, 2);   //Display mit 16 Zeichen in 2 Zeilen, Busadresse 0x27 (Interessant wenn man mehrere Geräte über den I2C-Bus betreibt)
 
 // Einführung der Variablen 
 float temperatur = 0.00;              // Variable temperatur als Nachkommazahl mit 2 Nachkommastellen
