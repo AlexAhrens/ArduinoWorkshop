@@ -2,7 +2,7 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 // Initialisierung des Displays
-LiquidCrystal_I2C lcd(0x27, 16, 2);         //Display mit 16 Zeichen in 2 Zeilen, Busadresse 0x27
+LiquidCrystal_I2C lcd(0x3F, 16, 2);         //Display mit 16 Zeichen in 2 Zeilen, Busadresse 0x27
 // Einführung der Variablen
 int trigger=7;                              //Pin "trigger" ist angeschlossen an Pin 7
 int echo=6;                                 //Pin "echo" ist angeschlossen an Pin 6
